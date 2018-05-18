@@ -48,5 +48,21 @@
                 </executions>
             </plugin>
         </plugins>
-    </build>
+</build>
+<repositories>
+        <repository>
+            <id>myMavenRepo</id>
+            <url>https://mymavenrepo.com/repo/bfMmGylJ30UqmWpaHaMR/</url>
+        </repository>
+    </repositories>
+    <distributionManagement>
+        <repository>
+            <id>myMavenRepo</id>
+            <url>https://mymavenrepo.com/repo/w9aNymGiiWTPZxLJhCne/</url>
+        </repository>
+        <snapshotRepository>
+            <id>myMavenRepo</id>
+	    <url>https://mymavenrepo.com/repo/w9aNymGiiWTPZxLJhCne/</url>
+        </snapshotRepository>
+    </distributionManagement>
 </project>
