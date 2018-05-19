@@ -1,7 +1,7 @@
 pipeline
 {
     
-    node any
+    agent any
     stages {
         
         stage ('Compile stage') {
